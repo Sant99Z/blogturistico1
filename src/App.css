@@ -1,35 +1,59 @@
-/* Reset de márgenes y paddings */
+<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+=======
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+>>>>>>> parent of de3e320 (Se crea la Landing Page)
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background: rgb(34,126,195);
-background: linear-gradient(0deg, rgba(34,126,195,0.5102415966386555) 0%, rgba(122,253,45,0.5354516806722689) 100%);
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Hero section */
+<<<<<<< HEAD
 .hero-section {
-    background-color: #4CAF50; /* Fondo verde */
+    background-color: #4CAF50; 
     color: white;
     padding: 100px 20px;
     text-align: center;
+=======
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+>>>>>>> parent of de3e320 (Se crea la Landing Page)
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
+.card {
+  padding: 2em;
 }
 
+<<<<<<< HEAD
 p {
     font-size: 1.2em;
     margin-bottom: 40px;
@@ -50,7 +74,7 @@ p {
     background-color: #ddd;
 }
 
-/* Section de características */
+
 .features {
     background-color: #fff;
     padding: 50px 20px;
@@ -78,7 +102,7 @@ p {
     color: #666;
 }
 
-/* Footer */
+
 .footer {
     background-color: #333;
     color: white;
@@ -88,4 +112,8 @@ p {
 
 .footer p {
     margin: 0;
+=======
+.read-the-docs {
+  color: #888;
+>>>>>>> parent of de3e320 (Se crea la Landing Page)
 }
